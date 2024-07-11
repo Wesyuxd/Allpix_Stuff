@@ -22,12 +22,12 @@
 #include <fstream> // To read and write to files
 #include <sstream> // To get a string buffer from input stream
 
-#include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos7-gcc12-opt/include/objects/MCParticle.hpp"
-#include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos7-gcc12-opt/include/objects/PixelCharge.hpp"
-#include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos7-gcc12-opt/include/objects/PixelHit.hpp"
-#include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos7-gcc12-opt/include/objects/PropagatedCharge.hpp"
-#include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos7-gcc12-opt/include/objects/DepositedCharge.hpp"
-#include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos7-gcc12-opt/include/objects/MCTrack.hpp"
+#include <MCParticle.hpp>
+#include <PixelCharge.hpp>
+#include <PixelHit.hpp>
+#include <PropagatedCharge.hpp>
+#include <DepositedCharge.hpp>
+#include <MCTrack.hpp>
 
 
 // These structs are used to get data from the functions below
