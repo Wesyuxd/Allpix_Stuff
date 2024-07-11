@@ -27,7 +27,7 @@
 #include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos9-gcc12-opt/include/objects/PixelHit.hpp"
 #include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos9-gcc12-opt/include/objects/PropagatedCharge.hpp"
 #include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos9-gcc12-opt/include/objects/DepositedCharge.hpp"
-#include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos7-gcc12-opt/include/objects/MCTrack.hpp"
+#include "/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos9-gcc12-opt/include/objects/MCTrack.hpp"
 
 
 // These structs are used to get data from the functions below
