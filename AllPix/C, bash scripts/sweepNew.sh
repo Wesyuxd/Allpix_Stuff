@@ -8,7 +8,7 @@ echo "Config file name: "
 read FILENAME
 CERNBOX="/eos/user/c/cmahajan/lxplus/allpix"
 CONFPATH="$CERNBOX/$RUNFOLDER/$FILENAME"
-SOURCEFILE="/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos7-gcc12-opt/setup.sh"
+SOURCEFILE="/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-el9-gcc12-opt/setup.sh"
 	# modifies CONF file and runs it
 for i in $(seq 0 8);
     do
