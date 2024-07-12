@@ -8,7 +8,7 @@ echo "Output CSV file name: "
 read CSVFILE
 CERNBOX="/eos/user/c/cmahajan/lxplus/allpix"
 RUNPATH="$CERNBOX/$RUNFOLDER"
-SOURCEFILE="/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos7-gcc12-opt/setup.sh"
+SOURCEFILE="/cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-el9-gcc12-opt/setup.sh"
 source $SOURCEFILE
 for FILE in $RUNPATH/*.root;
     do
@@ -21,7 +21,7 @@ for FILE in $RUNPATH/*.root;
                 biasV="${biasV#"bias"}"
                 biasV="${biasV%"V"}"
                 root -b -l $FILE <<EOF
-                .L /cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-centos7-gcc12-opt/lib/libAllpixObjects.so
+                .L /cvmfs/clicdp.cern.ch/software/allpix-squared/3.0.3/x86_64-el9-gcc12-opt/lib/libAllpixObjects.so
                 .L processData.C
                 processData(_file0, "dut", "$CSVFILE", $biasV, 300, 7)
 EOF
